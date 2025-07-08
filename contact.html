@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Penina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f8ff;
+      color: #333;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e0e7ff;
+    }
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px;
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #4338ca;
+    }
+    .contact-details {
+      margin-top: 40px;
+    }
+    .contact-details p {
+      margin: 10px 0;
+    }
+    .social-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <p>I'd love to hear from you!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <form action="mailto:pbyavala06@email.com" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">pbyavala06@gmail.com:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-details">
+      <h2>Other Ways to Connect</h2>
+      <p><strong>Email:</strong> pbyavala06@email.com</p>
+      <p><strong>Phone:</strong> +679 9636596</p>
+      <div class="social-links">
+        <strong>Social Media:</strong>
+        <a href="https://instagram.com/penina" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Penina | © 2025</p>
+  </footer>
+</body>
+</html>
